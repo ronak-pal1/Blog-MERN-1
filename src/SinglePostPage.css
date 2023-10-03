@@ -1,0 +1,51 @@
+.singlePostPage{
+    padding: 20px;
+}
+
+.singlePostPage > .imageContainer{
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    margin: 30px 0px;
+}
+
+.singlePostPage > .imageContainer > img{
+    object-fit: cover;
+    object-position: center center;
+}
+
+.singlePostPage > h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.singlePostPage > .contents{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.singlePostInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.singlePostPage > .contents > p > img{
+
+    max-width: 70%;
+    object-fit: contain;
+}
+
+
+
+.editSection{
+    margin: 0 auto;
+    width: fit-content;
+    padding: 8px 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.editButton {
+    text-decoration: none;
+    color: black;
+}

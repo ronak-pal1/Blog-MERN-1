@@ -1,0 +1,21 @@
+.post {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 20px;
+}
+
+.postLink > img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
